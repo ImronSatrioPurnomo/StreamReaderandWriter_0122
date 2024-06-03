@@ -20,5 +20,6 @@ int main() {
 
 	ifstream infile;
 
+	infile.open("Saepul.txt");
 
 }
