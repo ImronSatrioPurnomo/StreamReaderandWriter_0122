@@ -22,4 +22,5 @@ int main() {
 
 	infile.open("Saepul.txt");
 
+	cout << endl << ">= membuka dan mambaca file" << endl;
 }
