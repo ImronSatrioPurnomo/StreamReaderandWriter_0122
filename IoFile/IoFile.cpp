@@ -29,5 +29,6 @@ int main() {
 			cout << baris << '\n';
 		}
 	}
-
+	else cout << "Unable to open file";
+	return 0;
 }
