@@ -23,4 +23,11 @@ int main() {
 	infile.open("Saepul.txt");
 
 	cout << endl << ">= membuka dan mambaca file" << endl;
+
+	if (infile.is_open()) {
+		while (getline(infile, baris)) {
+			cout << baris << '\n';
+		}
+	}
+
 }
